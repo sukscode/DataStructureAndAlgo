@@ -4,24 +4,24 @@ print(shoppingList[1])
 print(shoppingList[2])
 
 #PRINT IN REVERSE ORDER
-print("#########################")
+print("**************************")
 print(shoppingList[-1])
 print(shoppingList[-2])
 print(shoppingList[-3])
 
 #FIND
-print("#########################")
+print("**************************")
 print('Milk' in shoppingList)
 print('milk' in shoppingList)
 
 #TRAVERSE
-print("#########################")
+print("**************************")
 def travese(list):
     for i in list:
         print(i)
 travese(shoppingList)
 
 #UPDATE
-print("#########################")
+print("**************************")
 shoppingList[2] = 'COFFEE'
 print(shoppingList)

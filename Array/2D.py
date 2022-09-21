@@ -6,10 +6,10 @@ print(twoArray)
 
 newArray = np.insert(twoArray,0,[1,2,3,10])
 newArray = np.insert(twoArray,0,[4,5,6,10])
-print("##############################")
+print("**************************")
 print(newArray)
 
-print("##############################")
+print("**************************")
 def acessElement(array,row,col):
     if row >= len(array) and col >= len(array[0]):
         print("Incorrect index")
@@ -17,14 +17,14 @@ def acessElement(array,row,col):
         print(array[row][col])  
 acessElement(twoArray,0,1)
 
-print("##############################")
+print("**************************")
 def Travese(array):
     for i in range(len(array)):
         for j in range(len(array[0])):
             print(array[i][j])
 Travese(twoArray)
 
-print("##############################")
+print("**************************")
 def search(array,value):
     for i in range(len(array)):
         for j in range(len(array[0])):
@@ -33,6 +33,6 @@ def search(array,value):
     return "Not found"
 print(search(twoArray,11))
 
-print("##############################")
+print("**************************")
 newtd = np.delete(newArray,0)
 print(newtd)
